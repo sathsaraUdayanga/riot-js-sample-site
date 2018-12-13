@@ -12,7 +12,9 @@
         this.search = function(e){
             e.preventDefault();
             var term = this.refs.search.value;
-            console.log(term);
+
+            //Search the api
+            this.giphySearch(term);
         }
     </script>
 
