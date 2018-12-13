@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="bower_components/normalize.css/normalize.css">
+    <link rel="stylesheet" href="bower_components/milligram/dist/milligram.min.css">
+    <link rel="stylesheet" href="style/style.css">
+
+    <script src="bower_components/riot/riot+compiler.min.js"></script>
+    <title>Giphygram</title>
+</head>
+
+<body class="container">
+    <header>
+        <h1>Giphygram</h1>
+        <search></search>
+    </header>
+
+
+
+    <!--Tags-->
+    <script src="tags/test.tag" type="riot/tag"></script>
+    <script src="tags/search.tag" type="riot/tag"></script>
+    <!--Mount all tags-->
+    <script>
+        riot.mount('*');
+    </script>
+</body>
+
+</html>

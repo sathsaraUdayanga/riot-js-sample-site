@@ -1,0 +1,21 @@
+{
+  "name": "giphygram",
+  "authors": [
+    "Sathsara Udayanga <sathsara.am@gmaiol.com>"
+  ],
+  "description": "Riot project",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "riot": "^3.13.2",
+    "milligram": "^1.3.0"
+  }
+}
